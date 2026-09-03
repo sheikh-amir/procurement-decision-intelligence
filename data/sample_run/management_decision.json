@@ -1,0 +1,28 @@
+{
+  "model_version": "2.0.0",
+  "generated_at_utc": "2026-09-02T21:11:13.998961+00:00",
+  "recommended_threshold": {
+    "score_threshold": 47.0,
+    "alerts": 185.0,
+    "review_hours": 37.0,
+    "proxy_risk_coverage_pct": 5.64,
+    "avg_selected_score": 53.93,
+    "multi_family_rate_pct": 100.0
+  },
+  "workload_risk": {
+    "backlog_probability_pct": 95.23,
+    "p50_hours": 42.97,
+    "p90_hours": 45.49,
+    "capacity_hours": 40.0
+  },
+  "weight_sensitivity": {
+    "top_n": 100,
+    "simulations": 75,
+    "mean_top_queue_jaccard": 0.8169,
+    "p10_top_queue_jaccard": 0.6584,
+    "min_top_queue_jaccard": 0.4925,
+    "interpretation": "Higher overlap means the top queue is less sensitive to reasonable weight changes."
+  },
+  "interpretation": "Screening/prioritization only; not evidence of misconduct.",
+  "data_mode": "synthetic_sample"
+}

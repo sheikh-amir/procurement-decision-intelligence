@@ -1,0 +1,10 @@
+metric,value,status
+null_rate::AGENCY,0.0,PASS
+null_rate::MCC_DESCRIPTION,0.0,PASS
+null_rate::OBJECTID,0.0,PASS
+null_rate::TRANSACTION_AMOUNT,0.0,PASS
+null_rate::TRANSACTION_DATE,0.0,PASS
+null_rate::VENDOR_NAME,0.0,PASS
+null_rate::VENDOR_STATE_PROVINCE,0.003896,PASS
+duplicate_objectid_rate,0.0,PASS
+numeric_amount_rate,1.0,PASS
